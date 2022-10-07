@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221007 14:24:04.850" rpa="false" schemaversion="3">
+<suite id="s1" name="Webautomation" source="C:\Users\Pedro\Documents\GitHub\PHA-ALAN\webautomation.robot">
+<test id="s1-t1" name="Cenario: Buscando um roupa" line="17">
+<kw name="Abrir o meu navegador" type="SETUP">
+<kw name="Open Browser">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<msg timestamp="20221007 14:24:04.897" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20221007 14:24:04.897" endtime="20221007 14:24:04.897"/>
+</kw>
+<kw name="Set Selenium Implicit Wait">
+<arg>30</arg>
+<status status="NOT RUN" starttime="20221007 14:24:04.897" endtime="20221007 14:24:04.897"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20221007 14:24:04.897" endtime="20221007 14:24:04.897"/>
+</kw>
+<status status="FAIL" starttime="20221007 14:24:04.881" endtime="20221007 14:24:04.897"/>
+</kw>
+<kw name="Fechar navegador" type="TEARDOWN">
+<kw name="Capture Page Screenshot">
+<msg timestamp="20221007 14:24:04.897" level="FAIL">No keyword with name 'Capture Page Screenshot' found.</msg>
+<status status="FAIL" starttime="20221007 14:24:04.897" endtime="20221007 14:24:04.897"/>
+</kw>
+<kw name="Close Browser">
+<msg timestamp="20221007 14:24:04.897" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20221007 14:24:04.897" endtime="20221007 14:24:04.897"/>
+</kw>
+<status status="FAIL" starttime="20221007 14:24:04.897" endtime="20221007 14:24:04.897">Several failures occurred:
+
+1) No keyword with name 'Capture Page Screenshot' found.
+
+2) No keyword with name 'Close Browser' found.</status>
+</kw>
+<tag>BUSCA</tag>
+<status status="FAIL" starttime="20221007 14:24:04.881" endtime="20221007 14:24:04.897">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) No keyword with name 'Capture Page Screenshot' found.
+
+2) No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>Aqui neste arquivo estaram presentes todos os tipos de
+variáveis que iremos estudar ao longo do treinamento.</doc>
+<status status="FAIL" starttime="20221007 14:24:04.850" endtime="20221007 14:24:04.912"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">BUSCA</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Webautomation">Webautomation</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20221007 14:24:04.881" level="ERROR">Error in file 'C:\Users\Pedro\Documents\GitHub\PHA-ALAN\webautomation.robot' on line 5: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python310\Scripts\robot.exe
+  C:\Python310\python310.zip
+  C:\Python310\DLLs
+  C:\Python310\lib
+  C:\Python310
+  C:\Python310\lib\site-packages</msg>
+</errors>
+</robot>
